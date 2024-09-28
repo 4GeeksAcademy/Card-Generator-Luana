@@ -4,8 +4,11 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
+
 let customHeigth = 400;
+
 let intervalId;
+
 window.onload = function() {
   document.querySelector("button").addEventListener("click", generarCartaNueva);
   document.querySelector("#button-1").addEventListener("click", () => {
