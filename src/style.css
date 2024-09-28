@@ -7,3 +7,11 @@
 .value {
   font-size: 100px;
 }
+
+.pinta-bottom {
+  transform: rotate(180deg);
+}
+
+.card {
+  heigth: 400px;
+}

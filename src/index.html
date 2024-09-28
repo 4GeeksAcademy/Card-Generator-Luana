@@ -16,12 +16,42 @@
     <div class="container-fluid text-center">
       <div
         class="card mb-3 mx-auto mt-5"
-        style="max-width: 380px; min-height:500px; border-radius: 13px;"
+        style="max-width: 380px; border-radius: 13px;"
       >
-        <div class="card-body">
-          <p class="pinta">♥</p>
+        <div
+          class="card-body d-flex flex-column h-100 p-0 justify-content-between"
+        >
+          <p class="pinta text-start align-text-top">♥</p>
           <h1 class="value">A</h1>
-          <p class="pinta">♥</p>
+          <p class="pinta pinta-bottom text-start align-text-bottom">♥</p>
+        </div>
+      </div>
+      <div>
+        <button type="button" class="btn btn-light">Generate New Card</button>
+        <button id="button-1" class="btn btn-dark">Start Timer</button>
+        <button id="button-2" class="btn btn-danger">Stop Timer</button>
+      </div>
+      <div class="d-flex flex-column col-6 mx-auto"> 
+        <div class="input-group flex-nowrap d-flex mt-2">
+          <span class="input-group-text" id="addon-wrapping">Heigth</span>
+          <input id="input-heigth"
+            type="text"
+            class="form-control"
+            placeholder="insert Heigth"
+            aria-label="insert Heigth"
+            aria-describedby="addon-wrapping"
+          />
+        </div>
+          <div class="input-group flex-nowrap d-flex mt-2">
+            <span class="input-group-text" id="addon-wrapping">Width</span>
+            <input id="input-width"
+              type="text"
+              class="form-control"
+              placeholder="insert Width"
+              aria-label="insert Width"
+              aria-describedby="addon-wrapping"
+            />
+          </div>
         </div>
       </div>
     </div>
