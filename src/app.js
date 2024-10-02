@@ -17,10 +17,10 @@ window.onload = function() {
   document.querySelector("#button-2").addEventListener("click", () => {
     clearInterval(intervalId);
   });
-  document.querySelector("#input-heigth").addEventListener("change", event => {
-    customHeigth = event.target.value;
-    document.querySelector(".card").style.heigth = customHeigth + "px";
-  });
+  // document.querySelector("#input-heigth").addEventListener("change", event => {
+  //   customHeigth = event.target.value;
+  //   document.querySelector(".card").style.heigth = customHeigth + "px";
+  // });
   let cardValues = [
     "2",
     "3",
